@@ -1,0 +1,35 @@
+
+header{
+    float: left;
+    width: 100%;
+}
+
+h1{
+    border: 3px solid green;
+    min-width: 480px;
+    height: 75px;
+    vertical-align: middle;
+    line-height: 75px;
+}
+
+nav{
+    border: 3px solid green;
+    min-width: 480px;
+    height: 150px;
+    line-height: 150px;
+}
+
+main{
+    float: left;
+    width: 100%;
+}
+
+footer{
+    border: 3px green solid;
+    float: left;
+    clear: both;
+    min-width: 480px;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+}

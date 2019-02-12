@@ -1,0 +1,16 @@
+#large-sections p{
+    border: 3px solid green;
+    min-width: 480px;
+    height: 125px;
+    width: 100%;
+    line-height: 125px;
+}
+
+#small-sections p{
+    border: 3px solid green;
+    min-width: 240px;
+    height: 250px;
+    width: 50%;
+    line-height: 250px;
+    float: left;
+}
