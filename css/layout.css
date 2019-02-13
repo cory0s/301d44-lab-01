@@ -13,11 +13,9 @@ h1{
 }
 
 main{
-    /* float: left; */
     width: 480px;
     margin: auto;
     background-color: salmon;
-    /* border: solid black 3px; */
 }
 
 nav{
@@ -34,6 +32,16 @@ footer{
     width: 480px;
     height: 80px;
     line-height: 80px;
+}
+
+@media screen and (min-width: 600px){
+    header{
+        width: 600px;
+        margin: auto;
+        background-color: seagreen;
+        /* border: black 3px solid; */
+    }
+
 }
 
 @media screen and (min-width: 768px){
@@ -66,10 +74,8 @@ footer{
 
     footer{
         border: 2px black solid;
-        height: 25.1%;
+        height: 25%;
         line-height: 150px;
-        width: 79.2%;
-        float: right;
-        clear: none;
+        width: 100%;
     }
 } 
