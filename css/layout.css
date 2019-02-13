@@ -1,35 +1,75 @@
 
 header{
-    float: left;
-    width: 100%;
+    width: 480px;
+    margin: auto;
+    background-color: salmon;
+    /* border: black solid 3px; */
 }
 
 h1{
     border: 3px solid green;
-    min-width: 480px;
     height: 75px;
-    vertical-align: middle;
     line-height: 75px;
+}
+
+main{
+    /* float: left; */
+    width: 480px;
+    margin: auto;
+    background-color: salmon;
+    /* border: solid black 3px; */
 }
 
 nav{
     border: 3px solid green;
-    min-width: 480px;
     height: 150px;
     line-height: 150px;
 }
 
-main{
-    float: left;
-    width: 100%;
-}
-
 footer{
     border: 3px green solid;
-    float: left;
+    /* float: left; */
+    margin: auto;
     clear: both;
-    min-width: 480px;
+    width: 480px;
     height: 80px;
     line-height: 80px;
-    width: 100%;
 }
+
+@media screen and (min-width: 768px){
+    header{
+        width: 960px;
+        margin: auto;
+        background-color: seagreen;
+        /* border: black 3px solid; */
+    }
+
+    main{
+        width: 960px;
+        height: 600px;
+        margin: auto;
+        background-color: seagreen;
+    }
+
+    h1{
+        border: 2px solid black;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    nav{
+        border: 2px solid black;
+        height: 100%;
+        width: 100%;
+        line-height: 600px;
+    }
+
+    footer{
+        border: 2px black solid;
+        height: 25.1%;
+        line-height: 150px;
+        width: 79.2%;
+        float: right;
+        clear: none;
+    }
+} 
